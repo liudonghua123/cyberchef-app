@@ -1,0 +1,3 @@
+[submodule "CyberChef"]
+	path = CyberChef
+	url = git@github.com:gchq/CyberChef.git
