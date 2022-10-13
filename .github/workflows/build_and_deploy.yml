@@ -36,6 +36,10 @@ jobs:
         working-directory: CyberChef
       - name: Prepare build files achive
         run: |
+          ls -l ./CyberChef/build/prod/
+          # remove the zipped CyberChef file
+          rm -rf ./CyberChef/build/prod/CyberChef_*.zip
+          ls -l ./CyberChef/build/prod/
           7z a -tzip ${{env.app_name}}-${{ github.ref_name }}.zip -r ./CyberChef/build/prod/*
         shell: bash
       - uses: actions/upload-artifact@v2
@@ -57,6 +61,7 @@ jobs:
     needs: [build-depoly-files]
     if: contains(github.ref, 'tags')
     strategy:
+      fail-fast: false
       matrix:
         os: ['ubuntu-22.04', 'macos-latest', 'windows-latest']
         include:
@@ -84,7 +89,10 @@ jobs:
           unzip ${{env.app_name}}-${{ github.ref_name }}.zip -d dist
         shell: bash
       - name: Display structure of downloaded files
-        run: ls -l . dist
+        run: |
+          ls -l . dist
+          npx -y --package=tree-node-cli -- treee dist
+        shell: bash
       - name: Use Node.js 16.x
         uses: actions/setup-node@v2
         with:
@@ -185,7 +193,7 @@ jobs:
       - name: Display structure of build files
         continue-on-error: true
         run: |
-          ls -lR src-tauri/target/
+          npx -y --package=tree-node-cli -- treee src-tauri/target/
         shell: bash
 
       - name: Prepare release files on ${{matrix.label}}
