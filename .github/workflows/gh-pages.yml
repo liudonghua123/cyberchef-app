@@ -1,0 +1,59 @@
+name: gh-pages
+on:
+  workflow_dispatch:
+    inputs:
+      branch:
+        description: 'The branch to build'
+        required: true
+        default: 'main'
+      tag_version:
+        description: 'The version of CyberChef upstream, eg: use 10.17.0 instead of v10.17.0'
+        required: true
+        default: '10.17.0'
+
+# https://docs.github.com/zh/actions/using-jobs/assigning-permissions-to-jobs
+permissions: write-all
+
+env:
+  APP_NAME: cyberchef-app
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  build_and_deploy:
+    name: Build depoly files for ${{ github.event.inputs.tag_version }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Checkout'
+        uses: actions/checkout@v2
+        with:
+          submodules: true
+      - name: 'Checkout and push specified tag version'
+        run: |
+          git status
+          git remote -v
+          git fetch --all --tags
+          git checkout tags/v${{ github.event.inputs.tag_version }}
+          git status
+        working-directory: CyberChef
+      - name: Use Node.js 18.x
+        uses: actions/setup-node@v2
+        with:
+          node-version: 18.x
+          cache: 'npm'
+      - name: 'Initialization'
+        run: |
+          sudo apt-get install xvfb
+          npm install
+        working-directory: CyberChef
+      - name: 'Building CyberChef'
+        run: |
+          npm run build
+        working-directory: CyberChef
+      - name: Deploy 🚀
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./CyberChef/build/prod/
