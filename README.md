@@ -4,7 +4,7 @@ This is cyberchef desktop app, running in an [Tauri](https://tauri.studio/) app.
 
 ## Downloads
 
-Current version: 10.17.0.
+Current version: 9.46.5.
 
 <table class="is-fullwidth">
 </thead>
@@ -17,23 +17,23 @@ Current version: 10.17.0.
     </td>
     <td>
       <span>64-bit</span>
-      <a href="https://github.com/liudonghua123/cyberchef-app/releases/latest/download/cyberchef-app-windows-10.17.0_x64.exe">
+      <a href="https://github.com/liudonghua123/cyberchef-app/releases/latest/download/cyberchef-app-windows-9.46.5_x64.exe">
         📦 Executable
       </a> |
-      <a href="https://github.com/liudonghua123/cyberchef-app/releases/latest/download/cyberchef-app-windows-10.17.0_x64.msi">
+      <a href="https://github.com/liudonghua123/cyberchef-app/releases/latest/download/cyberchef-app-windows-9.46.5_x64.msi">
         💿 MSI Installer
       </a> |
-      <a href="https://github.com/liudonghua123/cyberchef-app/releases/latest/download/cyberchef-app-windows-10.17.0_x64-setup.exe">
+      <a href="https://github.com/liudonghua123/cyberchef-app/releases/latest/download/cyberchef-app-windows-9.46.5_x64-setup.exe">
         💿 NSIS Installer
       </a><br />
       <span>32-bit</span>
-      <a href="https://github.com/liudonghua123/cyberchef-app/releases/latest/download/cyberchef-app-windows-10.17.0_x86.exe">
+      <a href="https://github.com/liudonghua123/cyberchef-app/releases/latest/download/cyberchef-app-windows-9.46.5_x86.exe">
         📦 Executable
       </a> |
-      <a href="https://github.com/liudonghua123/cyberchef-app/releases/latest/download/cyberchef-app-windows-10.17.0_x86.msi">
+      <a href="https://github.com/liudonghua123/cyberchef-app/releases/latest/download/cyberchef-app-windows-9.46.5_x86.msi">
         💿 MSI Installer
       </a> |
-      <a href="https://github.com/liudonghua123/cyberchef-app/releases/latest/download/cyberchef-app-windows-10.17.0_x86-setup.exe">
+      <a href="https://github.com/liudonghua123/cyberchef-app/releases/latest/download/cyberchef-app-windows-9.46.5_x86-setup.exe">
         💿 NSIS Installer
       </a><br />
       <span>
@@ -48,33 +48,33 @@ Current version: 10.17.0.
     </td>
     <td>
       <span>Intel Processor</span>
-      <a href="https://github.com/liudonghua123/cyberchef-app/releases/latest/download/cyberchef-app-macos-10.17.0_x64">
+      <a href="https://github.com/liudonghua123/cyberchef-app/releases/latest/download/cyberchef-app-macos-9.46.5_x64">
         📦 Executable
       </a> |
-      <a href="https://github.com/liudonghua123/cyberchef-app/releases/latest/download/cyberchef-app-macos-10.17.0_x64.dmg">
+      <a href="https://github.com/liudonghua123/cyberchef-app/releases/latest/download/cyberchef-app-macos-9.46.5_x64.dmg">
         💿 DMG bundle
       </a> |
-      <a href="https://github.com/liudonghua123/cyberchef-app/releases/latest/download/cyberchef-app-macos-10.17.0_x64.app.zip">
+      <a href="https://github.com/liudonghua123/cyberchef-app/releases/latest/download/cyberchef-app-macos-9.46.5_x64.app.zip">
         💿 APP bundle
       </a><br />
       <span>Apple M1 Processor</span>
-      <a href="https://github.com/liudonghua123/cyberchef-app/releases/latest/download/cyberchef-app-macos-10.17.0_aarch64">
+      <a href="https://github.com/liudonghua123/cyberchef-app/releases/latest/download/cyberchef-app-macos-9.46.5_aarch64">
         📦 Executable
       </a> |
-      <a href="https://github.com/liudonghua123/cyberchef-app/releases/latest/download/cyberchef-app-macos-10.17.0_aarch64.dmg">
+      <a href="https://github.com/liudonghua123/cyberchef-app/releases/latest/download/cyberchef-app-macos-9.46.5_aarch64.dmg">
         💿 DMG bundle
       </a> |
-      <a href="https://github.com/liudonghua123/cyberchef-app/releases/latest/download/cyberchef-app-macos-10.17.0_aarch64.app.zip">
+      <a href="https://github.com/liudonghua123/cyberchef-app/releases/latest/download/cyberchef-app-macos-9.46.5_aarch64.app.zip">
         💿 APP bundle
       </a><br />
       <span><a href="https://developer.apple.com/documentation/apple-silicon/building-a-universal-macos-binary">Universal</a></span>
-      <a href="https://github.com/liudonghua123/cyberchef-app/releases/latest/download/cyberchef-app-macos-10.17.0_universal">
+      <a href="https://github.com/liudonghua123/cyberchef-app/releases/latest/download/cyberchef-app-macos-9.46.5_universal">
         📦 Executable
       </a> |
-      <a href="https://github.com/liudonghua123/cyberchef-app/releases/latest/download/cyberchef-app-macos-10.17.0_universal.dmg">
+      <a href="https://github.com/liudonghua123/cyberchef-app/releases/latest/download/cyberchef-app-macos-9.46.5_universal.dmg">
         💿 DMG bundle
       </a> |
-      <a href="https://github.com/liudonghua123/cyberchef-app/releases/latest/download/cyberchef-app-macos-10.17.0_universal.app.zip">
+      <a href="https://github.com/liudonghua123/cyberchef-app/releases/latest/download/cyberchef-app-macos-9.46.5_universal.app.zip">
         💿 APP bundle
       </a><br />
       <span>
@@ -93,37 +93,37 @@ Current version: 10.17.0.
     </td>
     <td>
       <span>64-bit</span>
-      <a href="https://github.com/liudonghua123/cyberchef-app/releases/latest/download/cyberchef-app-linux-10.17.0_amd64">
+      <a href="https://github.com/liudonghua123/cyberchef-app/releases/latest/download/cyberchef-app-linux-9.46.5_amd64">
         📦 Executable
       </a> |
-      <a href="https://github.com/liudonghua123/cyberchef-app/releases/latest/download/cyberchef-app-linux-10.17.0_amd64.AppImage">
+      <a href="https://github.com/liudonghua123/cyberchef-app/releases/latest/download/cyberchef-app-linux-9.46.5_amd64.AppImage">
         💿 AppImage bundle
       </a> |
-      <a href="https://github.com/liudonghua123/cyberchef-app/releases/latest/download/cyberchef-app-linux-10.17.0_amd64.deb">
+      <a href="https://github.com/liudonghua123/cyberchef-app/releases/latest/download/cyberchef-app-linux-9.46.5_amd64.deb">
         💿 DEB bundle
       </a><br />
       <span>32-bit</span>
-      <a href="https://github.com/liudonghua123/cyberchef-app/releases/latest/download/cyberchef-app-linux-10.17.0_i386">
+      <a href="https://github.com/liudonghua123/cyberchef-app/releases/latest/download/cyberchef-app-linux-9.46.5_i386">
         📦 Executable
       </a> |
-      <a href="https://github.com/liudonghua123/cyberchef-app/releases/latest/download/cyberchef-app-linux-10.17.0_i386.AppImage">
+      <a href="https://github.com/liudonghua123/cyberchef-app/releases/latest/download/cyberchef-app-linux-9.46.5_i386.AppImage">
         💿 AppImage bundle
       </a> |
-      <a href="https://github.com/liudonghua123/cyberchef-app/releases/latest/download/cyberchef-app-linux-10.17.0_i386.deb">
+      <a href="https://github.com/liudonghua123/cyberchef-app/releases/latest/download/cyberchef-app-linux-9.46.5_i386.deb">
         💿 DEB bundle
       </a><br />
       <span>arm64</span>
-      <a href="https://github.com/liudonghua123/cyberchef-app/releases/latest/download/cyberchef-app-linux-10.17.0_arm64">
+      <a href="https://github.com/liudonghua123/cyberchef-app/releases/latest/download/cyberchef-app-linux-9.46.5_arm64">
         📦 Executable
       </a> |
-      <a href="https://github.com/liudonghua123/cyberchef-app/releases/latest/download/cyberchef-app-linux-10.17.0_arm64.deb">
+      <a href="https://github.com/liudonghua123/cyberchef-app/releases/latest/download/cyberchef-app-linux-9.46.5_arm64.deb">
         💿 DEB bundle
       </a><br />
       <span>armv7</span>
-      <a href="https://github.com/liudonghua123/cyberchef-app/releases/latest/download/cyberchef-app-linux-10.17.0_armhf">
+      <a href="https://github.com/liudonghua123/cyberchef-app/releases/latest/download/cyberchef-app-linux-9.46.5_armhf">
         📦 Executable
       </a> |
-      <a href="https://github.com/liudonghua123/cyberchef-app/releases/latest/download/cyberchef-app-linux-10.17.0_armhf.deb">
+      <a href="https://github.com/liudonghua123/cyberchef-app/releases/latest/download/cyberchef-app-linux-9.46.5_armhf.deb">
         💿 DEB bundle
       </a><br />
       <span>
