@@ -75,6 +75,8 @@ jobs:
       - name: 'Building CyberChef'
         run: |
           npm run build
+          # remove dumplicated CyberChef_vX.Y.Z.zip
+          rm -rf build/prod/CyberChef_v*.zip
         working-directory: CyberChef
       - name: Prepare build files achive
         run: |
