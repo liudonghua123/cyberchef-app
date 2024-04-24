@@ -246,13 +246,6 @@
  */
 
 /**
- * @author devcydo [devcydo@gmail.com]
- * @author Ma Bingyao [mabingyao@gmail.com]
- * @copyright Crown Copyright 2022
- * @license Apache-2.0
- */
-
-/**
  * @author gchq77703 []
  * @author n1474335 [n1474335@gmail.com]
  * @copyright Crown Copyright 2018

@@ -12,6 +12,15 @@
  * @license  MIT
  */
 
+/*! (c) Stefan Thomas | https://github.com/bitcoinjs/bitcoinjs-lib
+ */
+
+/*! (c) Tom Wu | http://www-cs-students.stanford.edu/~tjw/jsbn/
+ */
+
+/*! Mike Samuel (c) 2009 | code.google.com/p/json-sans-eval
+ */
+
 /*! ieee754. BSD-3-Clause License. Feross Aboukhadijeh <https://feross.org/opensource> */
 
 /*! regenerator-runtime -- Copyright (c) 2014-present, Facebook, Inc. -- license (MIT): https://github.com/facebook/regenerator/blob/main/LICENSE */
@@ -99,8 +108,22 @@
  */
 
 /**
+ * @author cplussharp
+ * @copyright Crown Copyright 2021
+ * @license Apache-2.0
+ */
+
+/**
  * @author d98762625 [d98762625@gmail.com]
  * @copyright Crown Copyright 2019
+ * @license Apache-2.0
+ */
+
+/**
+ * @author devcydo [devcydo@gmail.com]
+ * @author Ma Bingyao [mabingyao@gmail.com]
+ * @author n1474335 [n1474335@gmail.com]
+ * @copyright Crown Copyright 2024
  * @license Apache-2.0
  */
 
@@ -203,6 +226,14 @@
  */
 
 /**
+ * Crypt resources.
+ *
+ * @author n1474335 [n1474335@gmail.com]
+ * @copyright Crown Copyright 2021
+ * @license Apache-2.0
+ */
+
+/**
  * Custom error type for handling Dish type errors.
  * i.e. where the Dish cannot be successfully translated between types
  *
@@ -299,6 +330,18 @@
  * @author n1474335 [n1474335@gmail.com]
  * @copyright Crown Copyright 2018
  * @license Apache-2.0
+ */
+
+/**
+ * XXTEA library
+ *
+ * Encryption Algorithm Authors:
+ *     David J. Wheeler
+ *     Roger M. Needham
+ *
+ * @author Ma Bingyao [mabingyao@gmail.com]
+ * @author n1474335 [n1474335@gmail.com]
+ * @license MIT
  */
 
 /** @preserve
