@@ -14893,6 +14893,10 @@ body {
     line-height: 0;
 }
 
+.hidden {
+    display: none;
+}
+
 .blur {
     color: transparent !important;
     text-shadow: rgba(0, 0, 0, 0.95) 0 0 10px !important;
@@ -15190,6 +15194,16 @@ span.btn img {
     margin: 0 !important;
     border-radius: 0 !important;
     border: none;
+}
+
+.op-count {
+    float: right;
+    color: #999;
+    color: var(--subtext-font-colour);
+    font-weight: normal;
+    font-size: xx-small;
+    opacity: 0.5;
+    padding-left: .5em;
 }
 
 /**
